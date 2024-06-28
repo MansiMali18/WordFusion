@@ -15,6 +15,7 @@
             margin: 0 550px;
             border-radius: 20px 0 20px 0;
             color: #72204f;
+            font-size: 40px;
         }
 
         .heading {
@@ -52,7 +53,7 @@
             justify-content: space-evenly;
         }
 
-        .action-btn {
+        .action-1 {
             margin-top: 70px;
             height: 80px;
             width: 200px;
@@ -64,6 +65,61 @@
             border-radius: 5px;
             font-family: Anonymous Pro;
     
+        }
+        .action-2{
+            margin-top: 70px;
+            height: 80px;
+            width: 200px;
+            background-color: #efaeaf;
+            border-color: #daa4a4;
+            border: solid 1px;
+            color: #670909;
+            font-size: 30px;
+            border-radius: 5px;
+            font-family: Anonymous Pro;
+    
+        }
+        .action-3{
+            margin-top: 70px;
+            height: 80px;
+            width: 200px;
+            background-color: #c6b0b6;
+            border-color: #d7d8e2;
+            border: solid 1px;
+            color: #450415;
+            font-size: 30px;
+            border-radius: 5px;
+            font-family: Anonymous Pro;
+    
+        }
+        .action-4 {
+            margin-top: 70px;
+            height: 80px;
+            width: 200px;
+            background-color: #ebcfbf;
+            border-color: #a73305;
+            border: solid 1px;
+            color: #8e2701;
+            font-size: 30px;
+            border-radius: 5px;
+            font-family: Anonymous Pro;
+    
+        }
+        .action-1:hover
+        {
+            width: 220px;
+        }
+        .action-2:hover
+        {
+            width: 220px;
+        }
+        .action-3:hover
+        {
+            width: 220px;
+        }
+        .action-4:hover
+        {
+            width: 220px;
         }
     </style>
 </head>
@@ -80,16 +136,16 @@
     </p>
 
     <div class="btn-container">
-        <button type="button" class="action-btn" onclick="ActionResult('UPPERCASE')">
+        <button type="button" class="action-1" onclick="ActionResult('UPPERCASE')">
             UpperCase
         </button>
-        <button type="button" class="action-btn" onclick="ActionResult('LowerCase')">
+        <button type="button" class="action-2" onclick="ActionResult('LowerCase')">
             LowerCase
         </button>
-        <button type="button" class="action-btn" onclick="ActionResult('CharCount')">
+        <button type="button" class="action-3" onclick="ActionResult('CharCount')">
             CharCount
         </button>
-        <button type="button" class="action-btn" onclick="ActionResult('WordCount')">
+        <button type="button" class="action-4" onclick="ActionResult('WordCount')">
             WordCount
         </button>
     </div>
